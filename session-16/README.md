@@ -47,7 +47,43 @@ Salida: [ 'M. Curie', 'M. Anning', 'A. Lovelace', 'S. Ride' ]
 
 ---
 
-### Columnas responsivas (Flor)
+### Consecutive Sum (Alicia)
+
+Determina el index de inicio cuando una secuencia de numeros del array de numeros sea igual al valor de target value recibido en el segundo argumento de la funcion. Esta funcion recibe dos argumentos:
+   1. Un array de numeros
+   2. Un numero.
+
+_Ejemplo_ 
+
+```js
+Entrada: ([0,1,5,5,1,1,2,1,8,6], 7)
+Salida: 3: la secuencia[5,1,1] que suma 7 empieza en el indice 3
+
+Entrada: ([0,1,55,45,1,2,1,2,6], 7)
+Salida: -1: No hay ninguna secuencia que sume 7
+```
+### Minimum Moves
+
+Tienes 2 arrays con numeros arr1 y arr2. Un movimiento significa incrementar o disminuir un elemento en el array. Determina el numero de movimientos que te
+tomara hacer coincidir el array de arr1 con el de arr2. No esta permitido reordenar los digitos.
+
+_Ejemplo_
+```js
+arr1 = [123,543]
+arr2 = [321,279]
+```
+  * Compara arr1[0]=123 con arr2[0]=321.
+     * Suma 1 + 2 para llegar a 3 (2 movimientos).
+     * Resta 3 -2 para llegar a 1 (2 movimientos).
+     * Son necesarios 4 movimientos para hacer coincidir 123 con 321
+  * Compara arr1[1]=543 con arr2[1]=279.
+     * Resta 5 - 3 para obtener 2 (3 movimientos).
+     * Suma 4 + 3 para obtener 7 (3 movimientos).
+     * Suma 3 + 6 para obtener 9 (6 movimientos).
+     * Son necesarios 12 movimientos para hacer coincidir 5433 con 279
+  * 16 movimientos en total son necesarios para hacer coincidir el arr1 con el arr2
+ 
+ ### Columnas responsivas (Flor)
 
 Realizar una estructura en css y html de una fila con dos divs responsive  y al hacer la pantalla más pequeña en lugar de estar ordenados por fila se hicieran en columna.
 
